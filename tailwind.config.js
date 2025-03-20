@@ -2,7 +2,11 @@
  export default {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'primary':'#FD1D57'
+      }
+    },
     screens:{
       sm:'576px',
       md:'768px',
@@ -13,6 +17,7 @@
       center:true,
       padding:'1rem'
     }
+
   },
   plugins: [],
 }
